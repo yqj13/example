@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>i Sport</title>
+    <style>
+        body{
+            /*设置外边距*/
+            margin: 0;
+            /*设置浏览器视图高度，用百分比*/
+            height: 100vh;
+            background-color: grey;
+        }
+        /*布局小技巧：用通用选择器给所有元素加一个边框，可以很清晰地看到所有透明盒子的位置*/
+        *{
+            border: 1px solid;
+        }
+        /*使用弹性盒子*/
+        .flex{
+            display: flex;
+        }
+        /*设置元素宽度*/
+        .width200{
+            width: 200px;
+        }
+        .white{
+            /*设置背景颜色*/
+            background-color: white;
+        }
+        .flex1{
+            /*占满其余全部区域*/
+            flex: 1;
+        }
+        /*让盒子竖向排列*/
+        .column{
+            flex-direction: column;
+        }
+        .height60{
+            height: 60px;
+        }
+        .height250{
+            height: 250px;
+        }
+        .font12{
+            font-size: 12px  ;
+        }
+        .font20{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body class="flex">
+<!--侧边栏-->
+<div class="width200 white">
+    <nav>
+        <h4>首页</h4>
+        <ul>
+            <li style="margin: 10px"><a href="">运动专区&nbsp;></a></li>
+            <li style="margin: 10px"><a href="">学习专区&nbsp;></a></li>
+            <li style="margin: 10px"><a href="">商&nbsp;&nbsp;城&nbsp;></a></li>
+
+        </ul>
+    </nav>
+</div>
+<!--主区域-->
+<div class="flex1 flex column">
+<!--&lt;!&ndash;头部栏&ndash;&gt;高度为60像素-->
+    <div class="height60 white">
+<!--        <h4 align="center" class="font20">"爱运动“主题网站</h4>-->
+<!--       <p align="right " class="font12" >&#45;&#45;一场酣畅淋漓，可以解忧各种烦恼</p>-->
+    </div>
+<!--    内容区-->
+    <div class="flex1 flex">
+<!--        左区(占据3/4)-->
+
+        <div style="flex: 3" class="flex column">
+            <!--        左区最上面的盒子用来放主图片-->
+            <div style="flex: 2" class="flex column white"><img src="618狂欢节.JPG" height="300" width="400">
+                <!--               -->
+            </div>
+            <div style="flex: 3">
+
+        </div>
+<!--        右区（占据1/4）-->
+        <div style="flex: 1" class="flex column"></div>
+    </div>
+</div>
+</body>
+</html>
+<!-- style=--><!--            <a>--><!--                <div style="margin: 10px " class="flex1 flex column">-->
+
+<!--                </div>-->
+<!--                <div class="flex1 flex column"></div>-->
+<!--                <div class="flex1 flex column"></div>-->
+<!--            </div>-->
