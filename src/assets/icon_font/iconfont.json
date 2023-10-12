@@ -1,0 +1,79 @@
+{
+  "id": "4272865",
+  "name": "图书管理系统",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "108776",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1440903",
+      "name": "全部",
+      "font_class": "quanbu",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "6512221",
+      "name": "新建",
+      "font_class": "xinjian",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "11372695",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "e8b7",
+      "unicode_decimal": 59575
+    },
+    {
+      "icon_id": "13136456",
+      "name": "修改",
+      "font_class": "xiugai",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "673798",
+      "name": "首页_fill",
+      "font_class": "shouyefill",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
+      "icon_id": "1727423",
+      "name": "204首页",
+      "font_class": "shouye",
+      "unicode": "e8b9",
+      "unicode_decimal": 59577
+    },
+    {
+      "icon_id": "3868282",
+      "name": "应用管理",
+      "font_class": "yingyongguanli",
+      "unicode": "eb67",
+      "unicode_decimal": 60263
+    },
+    {
+      "icon_id": "17619180",
+      "name": "图书管理",
+      "font_class": "tubiaozhizuomoban-37",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "34964491",
+      "name": "台账管理",
+      "font_class": "taizhangguanli",
+      "unicode": "ea1b",
+      "unicode_decimal": 59931
+    }
+  ]
+}
